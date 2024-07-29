@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: max-content;
+  height: max-content;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: cadetblue;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main div h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputText {
+  width: 40vw;
+  height: 40vh;
+  padding: 5px;
+  text-align: justify;
+  font-size: 15px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
